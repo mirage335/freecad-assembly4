@@ -15,7 +15,8 @@ _test_prog() {
 
 _setup_prog() {
 	_messagePlain_request 'request: BEWARE: Apparently, freecad ignores or does not use entirely as expected, all variables and command line parameters, related to redirecting the "$HOME"/.FreeCAD directory or subdirectories. '
-	_messagePlain_request 'request: install and manually test assembly2 module '
+	_messagePlain_request 'request: install and manually test assembly4 module '
+	_messagePlain_request 'request: install and manually test a2plus module '
 	
 	return 0
 }
