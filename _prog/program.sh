@@ -2,8 +2,7 @@
 
 #Typically launches an application - ie. through virtualized container.
 _launch() {
-	false
-	#"$@"
+	_app "$@"
 }
 
 #Typically gathers command/variable scripts from other (ie. yaml) file types (ie. AppImage recipes).
