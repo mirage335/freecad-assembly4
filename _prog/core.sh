@@ -104,6 +104,18 @@ _freecad-assembly2() {
 	_app "$@"
 }
 _freecad-assembly4() {
+	# https://github.com/Zolko-123/FreeCAD_Assembly4
+	# 4714df86e97e7b2ee1bb8ffd5a1b676c464a4302
+	
+	# DANGER: Not thoroughly tested successfully. Several errors or warning messages are shown which may have untested consequences from minor nuisance to cripling malfunction.
+	# If assembly2 module is present (even to be used only with prior FreeCAD version 0.18.4), irrelevant popup error message will appear.
+		# File does not exist!
+		# /:/assembly2/icons/workBenchIcon.svg
+	# When switching to assembly4 workbench through the GUI, several ominous error messages appear under "Report view" .
+		# Unknown command 'Part_Import'
+		# Unknown command 'Asm4_insertRod'
+		# Unknown command 'Asm4_FSparameters'
+	
 	_app "$@"
 }
 
